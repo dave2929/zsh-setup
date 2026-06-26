@@ -4,11 +4,13 @@ my zsh setup
 Install Oh-My-ZSH!
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"  
 
-Install PowerLevel9k!
-git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+Install PowerLevel10k!
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k"
 
 TODO:
 Customize the Prompt a Bit!
+VI_MODE?
+
 PowerLevel9k has crazy customization options, so you need to check on their wiki, but for the video I went just with:
 
 POWERLEVEL9K_DISABLE_RPROMPT=true
@@ -23,7 +25,11 @@ https://medium.com/@alex285/get-powerlevel9k-the-most-cool-linux-shell-ever-1c38
 Install zsh-autosuggestions
 Install zsh-syntax-highlighting
 https://tcude.net/enabling-command-autocomplete-in-zsh/
-ripgrep or grep
 
 review all oh-my-zsh plugins
+neovim,gvim setup?
 https://hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/
+
+
+vscode plugin:
+SSH, C/C++, Python, Trailing Spaces, Verilog/SystemVerilog, ?Prettier?
