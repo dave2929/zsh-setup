@@ -174,7 +174,7 @@ alias p4s='p4 sync'
 alias p4d='p4 diff'
 alias p4o='p4 opened'
 
-#ps -p $$ -- check which shell I'm in
-#find . -iname document.pdf
-#ssh/scp
-#
+alias whichshell='ps -p $$'
+alias rg='rg --smart-case'
+alias rgf='rg -l'
+alias ff='rg --files | rg -i'
